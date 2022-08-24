@@ -1,0 +1,339 @@
+.topcarlogo {
+    
+  width: 110px;
+  height: auto;
+
+
+}
+body{
+  background-color: deepskyblue;
+  
+}
+.maincontainer {
+max-width: 1600px;
+margin: auto;
+z-index: 0;
+position: sticky;
+top: 0px;
+}
+.form-control {
+  width: 500px;
+  display: inline-block;
+  margin-left: 50px;
+  color: crimson;
+  
+}
+.topcontainer{
+  
+ margin-top: 10px;
+background-color: black;
+ user-select: none;
+position: sticky;
+top: 0px;
+z-index: 700px;
+
+}
+.TopSportCar{
+color: crimson;
+ display: inline-block;
+ margin-left: 20px;
+ padding: 10px 0px;
+ cursor: pointer;
+}
+.slider{
+ height: 4px;
+background-color: crimson;
+margin-left: 670px;
+display: flex;
+flex-direction: row;
+justify-content: end;
+transition: all 0.5s ease-out;
+position: sticky;
+top: 63px;
+
+}
+.listcontainer {
+  display: inline-block;
+  position: relative;
+  
+}
+.darkmodecontainer {
+ margin-top: 15px;
+  width: 62px;
+  height: 32px;
+  display: inline-block;
+background-color: aqua;
+margin-left: 30px;
+border-radius: 25px;
+position: absolute;
+
+
+}
+.darkmode{
+  width: 30px;
+  height: 30px;
+  border-radius: 25px;
+  background-color: aliceblue;
+position: absolute;
+ margin-top: 1.1px;
+ margin-left: 1px;
+ 
+}
+.body2 {
+background-color: rgba(0, 0, 0, 0.801);
+}
+.body3{
+background-color: deepskyblue;
+}
+.MidContainer {
+   
+ margin: auto;
+ max-width: 1600px;
+  border-bottom: 2px solid;
+  border-color: aliceblue;
+ 
+}
+.left {
+  width:41% ;
+  
+  display: inline-block;
+}
+.right{
+  width: 54%;
+
+  display: inline-block;
+
+}
+.displaynoneTag {
+  display: none;
+}
+
+.contactus {
+  max-width: 1500px;
+  margin: auto;
+  position: relative;
+}
+.imageparents {
+margin-right: 40px;
+  margin-left: 50px;
+  justify-content: center;
+  align-items: center;
+  
+ 
+}
+.imgfirstview {
+  width: 600px;
+  height: auto;
+user-select: none;
+
+}
+.nextbutton {
+  font-size: 100px;
+  color: aliceblue; 
+  cursor: pointer;
+  user-select: none;
+
+}
+
+.playvideo {
+  padding: 10px 50px;
+  background: linear-gradient(84.06deg, #0088FF -28.62%, #A033FF 36.39%, #FF5C87 98.74%);  
+  color: inherit;
+  font-size: 15px;
+  font-weight: bold; 
+  justify-content: center;
+  color: aliceblue;
+  border-radius: 5px;
+  
+}
+.videodiv {
+  display: flex;
+  justify-content: center;
+  transition: all 1s ease;
+  margin-bottom: 5px;
+}
+.nextbutton:hover {
+  color: #A033FF;
+}
+.videodiv2{
+  transform: translateX(+950px);
+}
+.carinfo {
+  color: aliceblue;
+
+  margin: 50px;
+}
+.carName{  
+ border-bottom: 1px solid;
+ border-color: crimson;
+}
+.ullist{
+  font-size: 25px;
+}
+.lifont{
+  font-size: 30px;
+  font-weight: bold;
+
+}
+.resultinfo {
+  z-index: 100;
+  width: 580px;
+ user-select: none;
+  background-color: black; 
+  position: absolute;
+  margin-left: 110px;
+  
+ 
+}
+.caritemcontainer {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0px 20px;
+height: 100px;
+border-bottom: 1px solid lightgray;
+}
+.caritemcontainer:hover {
+  background-color: #0088FF;
+
+}
+
+.carName2{
+font-size: 15px;
+color: white;
+}
+.carimg {
+width: 150px;
+height: auto;
+}
+.colourchanging{
+background-color: #0088FF;
+}
+.hover:hover {
+  background-color: #0088FF;
+}
+@media (max-width: 1480px  ){
+  .imgfirstview{
+    width: 450px;
+  }
+  .videodiv2{
+    transform: translateX(+900px);
+  }
+
+}
+@media (max-width: 1414px  ){
+  .right {
+    right: 0px;
+   margin: 0px;
+   
+   
+  }
+  .carautocomplete{
+width: 300px;
+
+  }
+  
+  .slider{
+    display: none;
+  }
+
+ .menucontainer{
+
+}
+  
+}
+@media (max-width : 1210px) {
+  .left{
+   width:  38%;
+  }
+  .nextbutton{
+    display: none;
+  }
+  .topcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    
+  }
+  .carautocomplete{
+    width: 200px;
+    
+      }
+}
+@media (max-width : 1000px) {
+  .right{
+    display: block;
+    margin-top: 150px;
+  }
+  .left {
+    width: 100%;
+  }
+  .carautocomplete{
+    width: 400px;
+  }
+  .darkmodecontainer{
+    position: static;
+  }
+  .darkmode{
+    position: static;
+  }
+
+}
+.Animationline {
+  width: 40px;
+  height: 4px;
+  background-color: coral;
+  margin: 5px 0px;
+  
+}
+.menucontainer {
+  opacity: 0;
+  display: none;
+  display: flex;
+  cursor: pointer;
+  display: inline-block;
+ align-items: center;
+position: relative;
+top: 10px;
+position: absolute;
+margin-left: 120px;
+z-index: 60px;
+}
+.opictydispaaer {
+  opacity: 0 ;
+}
+.lin1,.lin3  {
+  transition: transform 0.5s ease;
+}
+
+.lin2 {
+  transition: opacity 0.5s ease;
+}
+.rotate45deg{
+  transform: rotate(45deg) translate(4px, 15px);
+}
+.rotate-45deg {
+  transform: rotate(-45deg) translate(-4px, -9px);
+}
+ 
+.secondovermenu { 
+  top: 0px;
+  right: 0px;
+  z-index: 50;
+  width: 00px;
+  height: 100%;
+ background-color: grey;
+  position: absolute;
+ 
+transform: translateX(1px);
+transition: all 0.5s ease;
+opacity: 0;
+
+
+}
+.displaynonemenu{
+opacity: 1;
+transform: translateX(-1px);
+
+}

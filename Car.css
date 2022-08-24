@@ -1,0 +1,162 @@
+.top {
+   max-width: 1030px;
+     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    
+}
+.maincontiner {
+   display: flex;
+   flex-wrap: wrap;
+   width: 100%;
+}
+.button {
+    background: linear-gradient(84.06deg, #0088FF -28.62%, #A033FF 36.39%, #FF5C87 98.74%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+   
+}
+.buttonimg {
+ height: auto;
+ width: 140px;
+
+ 
+}
+.span {
+    font-family: Calibre, Helvetica Neue, Segoe UI, Helvetica, Arial, Lucida Grande, sans-serif;
+color: #fff;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+font-size: 18px;
+
+}
+.toplogo {
+    width: 40px;
+    height: 40px;
+}
+.left {
+    flex-wrap: wrap;
+    display: inline-block;
+  width: 48%;
+
+}
+.right {
+    display: flex;
+    display: inline-block;
+    width: 48%;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+.email {
+    display: block;
+   padding: 10px ;
+   padding-left: 18px;
+   padding-right: 90px;
+   border: none;
+   background-color: #F5F5F5;
+   font-size: 13px;
+   border-radius: 10px;
+   font-size: 15px;
+   
+ 
+}
+
+.checkbox {
+   display: inline-block;
+   font-family: Calibre, Helvetica Neue, Segoe UI, Helvetica, Arial, Lucida Grande, sans-serif!important;
+   font-size: 13px;
+   color: #595959;
+}
+.leftlogo {
+    width: auto;
+    height: 44px;
+    margin-right: 10px;
+   margin-bottom: 80px;
+} 
+
+
+.cosor {
+ text-decoration: none;
+ color: inherit;
+ font-size: 14px;
+ font-family: Calibre, Helvetica Neue, Segoe UI, Helvetica, Arial, Lucida Grande, sans-serif;
+ font-weight: bolder;
+ margin: 10px;
+ 
+}
+.cosor:hover {
+    border-bottom-style:  solid  ;
+    border-color:  #0a7cff;
+    border-radius: 1px;
+}
+
+
+.margininput {
+    margin-top: 39px;
+    margin-bottom: 10px;
+}
+.passwordinput {
+    margin-bottom: 30px;
+ 
+}
+
+  
+.loginbutton {
+    margin-bottom: 30px;
+}
+
+.underphoto{
+    margin-bottom: 10px;
+}
+.h1hang {
+    font-size: 65px;
+    font-family: Calibre, Helvetica Neue, Segoe UI, Helvetica, Arial, Lucida Grande, sans-serif;
+
+    background-image: linear-gradient(83.84deg, #0088FF -6.87%, #A033FF 26.54%, #FF5C87 58.58%);
+    -webkit-background-clip: text;
+       color: transparent;
+}
+.messmake {
+   font-size: 20px;
+   font-family: Calibre, Helvetica Neue, Segoe UI, Helvetica, Arial, Lucida Grande, sans-serif;
+   color: #595959;
+}
+.Mother {
+   display: flex;
+  max-width: 1000px;
+        margin: 0 auto;
+        
+}
+.body {
+  margin: 0 auto;
+ 
+}
+
+.logradius {
+   border-radius: 24px;
+   padding:  10px 15px;
+   background-color: #0084ff;
+   border: #0084ff;
+   width: auto;
+   font-family: Calibre, Helvetica Neue, Segoe UI, Helvetica, Arial, Lucida Grande, sans-serif;
+   font-size: 17px;
+   color: #fff;
+   font-weight: bold;
+}
+.forgetpass {
+    color: inherit;
+   color:  #0a7cff;
+   font-family: Calibre, Helvetica Neue, Segoe UI, Helvetica, Arial, Lucida Grande, sans-serif;
+   margin-left: 20px;
+   font-size: 13px;
+}
+.learn {
+    color: white;
+    font-family: Calibre, Helvetica Neue, Segoe UI, Helvetica, Arial, Lucida Grande, sans-serif;
+    font-size: 18px;
+}
